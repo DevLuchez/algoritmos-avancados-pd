@@ -2,6 +2,7 @@ def resolver():
     # --- ETAPA 1: PRÉ-PROCESSAMENTO DOS DADOS DE ENTRADA ---
     lista_input = []
 
+    # Ler o arquivo entrada.txt
     with open('entrada.txt', 'r', encoding='utf-8') as arquivo_entrada:
         # Para cada linha da entrada padrão
         for linha_input in arquivo_entrada:
